@@ -1,4 +1,4 @@
-package ejercicio_02_registrado_empleado;
+package ejercicio_02_registrado_empleadoMeta;
 
 import javax.swing.JOptionPane;
 

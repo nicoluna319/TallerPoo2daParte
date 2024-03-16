@@ -1,4 +1,4 @@
-package ejercicio_01_inventario;
+package ejercicio_01_inventarioMeta;
 
 import java.util.ArrayList;
 

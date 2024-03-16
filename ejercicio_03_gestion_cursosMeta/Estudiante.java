@@ -1,16 +1,14 @@
-package ejercicio_01_inventario;
+package ejercicio_03_gestion_cursosMeta;
 
-public class Producto {
-   private int id ;
+public class Estudiante {
+    private int id;
+    private String nombre;
+     private String email;
 
-   private String nombre;
-
-   private double precio;
-
-    public Producto(int id, String nombre, double precio) {
+    public Estudiante(int id, String nombre, String email) {
         this.id = id;
         this.nombre = nombre;
-        this.precio = precio;
+        this.email = email;
     }
 
     public int getId() {
@@ -29,20 +27,20 @@ public class Producto {
         this.nombre = nombre;
     }
 
-    public double getPrecio() {
-        return precio;
+    public String getEmail() {
+        return email;
     }
 
-    public void setPrecio(double precio) {
-        this.precio = precio;
+    public void setEmail(String email) {
+        this.email = email;
     }
 
     @Override
     public String toString() {
-        return "Producto{" +
+        return "Estudiante{" +
                 "id=" + id +
                 ", nombre='" + nombre + '\'' +
-                ", precio=" + precio +
+                ", email='" + email + '\'' +
                 '}';
     }
 }

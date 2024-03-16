@@ -1,4 +1,4 @@
-package ejercicio_03_gestion_cursos;
+package ejercicio_03_gestion_cursosMeta;
 
 import java.util.ArrayList;
 import java.util.Scanner;
